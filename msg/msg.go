@@ -1,4 +1,4 @@
-package minipkg
+package msg
 
 import (
 	"fmt"
