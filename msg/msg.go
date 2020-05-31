@@ -13,6 +13,7 @@ func HelloMessage() string {
 
 func EventFire(ch chan<- int) {
 	i := 0
+	fmt.Println("event firt")
 	for {
 		ch <- i
 		i++
